@@ -1,0 +1,21 @@
+.sobremi{
+    background-color: white;
+    width: 70%;
+}
+
+.sobremi__titulo{
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 3rem;
+    color: #1F618D;
+    font-weight: bold;
+}
+
+.sobremi__texto{
+    margin-top: 0.5rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 0.8rem;
+}

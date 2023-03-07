@@ -1,0 +1,119 @@
+
+
+.contacto{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+/* Estilos para dispositivos móviles */
+
+@media screen and (max-width: 767px) {
+
+	.contacto__titulo {
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin-left: 3rem;
+        color: #1F618D;
+        font-weight: bold;
+	}
+
+	.contacto__label {
+		display: block;
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+	.contacto__input[type="text"],
+	.contacto__input[type="email"],
+	.contacto__textarea {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		font-size: 16px;
+		margin-top: 5px;
+		margin-bottom: 20px;
+		box-sizing: border-box;
+	}
+
+	.contacto__input[type="submit"] {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		font-size: 16px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		background-color: #1F618D;
+		color: aliceblue;
+	}
+
+	.contacto__input[type="submit"]:hover {
+		background-color: #154360;
+	}
+
+}
+
+/* Estilos para dispositivos de escritorio */
+
+@media screen and (min-width: 768px) {
+
+	.contacto__titulo {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: #1F618D;
+        font-weight: bold;
+	}
+
+	.contacto__form {
+		background-color: white;
+		border-radius: 5px;
+		padding: 20px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		max-width: 600px;
+		width: 100%;
+	}
+
+	.contacto__label {
+		display: block;
+		font-size: 15px;
+		margin-top: 20px;
+		color: #1F618D;
+	}
+
+	.contacto__input[type="text"],
+	.contacto__input[type="email"],
+	.contacto__textarea {
+		display: block;
+		width: 100%;
+		padding: 5px;
+		font-size: 10px;
+		margin-top: 5px;
+		margin-bottom: 1px;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 2px solid #1F618D;
+	}
+
+	.contacto__textarea {
+		resize: vertical;
+	}
+
+	.contacto__input[type="submit"] {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		font-size: 18px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		background-color: #1F618D;
+		color: aliceblue;
+	}
+
+	.contacto__input[type="submit"]:hover {
+		background-color: #154360;
+    }}

@@ -1,0 +1,130 @@
+.redes__titulo{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #1F618D;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
+.social-media-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media-icons button {
+  border: none;
+  border-radius: 20px;
+  color: #1F618D;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  width: 150px;
+}
+
+.instagram-btn {
+  background-color: aliceblue;
+}
+
+.linkedin-btn {
+  background-color: aliceblue;
+}
+
+.github-btn {
+  background-color: aliceblue;
+}
+
+.gmail-btn {
+  background-color: aliceblue;
+}
+
+.instagram-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkedin-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.github-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.gmail-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.instagram-btn i {
+  margin-right: 10px;
+}
+
+.linkedin-btn i {
+  margin-right: 10px;
+}
+
+.github-btn i {
+  margin-right: 10px;
+}
+
+.gmail-btn i {
+  margin-right: 10px;
+}
+
+.instagram-btn:hover i {
+  animation: shake 0.5s ease-in-out infinite;
+  color: black;
+}
+
+.linkedin-btn:hover i {
+  animation: shake 0.5s ease-in-out infinite;
+  color: black;
+}
+
+.github-btn:hover i {
+  animation: shake 0.5s ease-in-out infinite;
+  color: black;
+}
+
+.gmail-btn:hover i {
+  animation: shake 0.5s ease-in-out infinite;
+  color: black;
+}
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  10% { transform: translate(-5px, 0); }
+  20% { transform: translate(5px, 0); }
+  30% { transform: translate(-5px, 0); }
+  40% { transform: translate(5px, 0); }
+  50% { transform: translate(-5px, 0); }
+  60% { transform: translate(5px, 0); }
+  70% { transform: translate(-5px, 0); }
+  80% { transform: translate(5px, 0); }
+  90% { transform: translate(-5px, 0); }
+  100% { transform: translate(0, 0); }
+}
+
+@media screen and (max-width: 768px) {
+  .social-media-icons {
+  flex-wrap: wrap;
+  height: auto;
+  }
+  
+  .social-media-icons button {
+  width: 100%;
+  margin-bottom: 10px;
+  }
+  }
